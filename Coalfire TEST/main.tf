@@ -1,5 +1,5 @@
 ########################################
-# Root main.tf — Skeleton
+# Root main.tf — Coalfire-TEST
 ########################################
 
 module "vpc" {
@@ -62,3 +62,4 @@ module "alarms" {
 resource "aws_sns_topic" "alerts" {
   name = "app-alerts-topic"
 }
+
